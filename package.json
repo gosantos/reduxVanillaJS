@@ -13,5 +13,8 @@
   "devDependencies": {
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "redux": "^3.7.2"
   }
 }
