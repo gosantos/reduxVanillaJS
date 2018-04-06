@@ -1,3 +1,6 @@
+import { store } from './store';
+import { changeStatus } from './actions/status';
+
 const statusParagraph = document.querySelector('.status');
 
 document
