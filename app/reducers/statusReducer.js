@@ -7,7 +7,7 @@ export const statusReducer = (state = initialState, action) => {
 
     switch (action.type) {
         case actionTypes.CHANGE_STATUS:
-            return { ...state, status }
+            return Object.assign({}, state, { status })
         default:
             return state
     }
